@@ -1,0 +1,810 @@
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.662 seconds.
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.662 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.603 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 1.363 seconds.
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.704 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:9  column:28  ----
+
+  Use of undeclared Var hello-world.core/hello-world
+
+   6  (defonce app-state
+   7    (atom {:text "Hello world!"}))
+   8  
+   9  (reagent/render-component [hello-world]
+                                 ^--- Use of undeclared Var hello-world.core/hello-world
+  10                            (. js/document (getElementById "app")))
+  11  
+  12  (defn on-js-reload []
+  13    ;; optionally touch your app-state to force rerendering depending on
+  14    ;; your application
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.71 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.677 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.682 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.749 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.7 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.626 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.71 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.654 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.2 seconds.
+----  Could not Read  src/hello_world/core.cljs   line:21 ----
+
+  D:\hello-world\src\hello_world\core.cljs [line 21, col 51] Unmatched delimiter ].
+
+  19   :height 500}
+  20  (for [i (range (count (:board @app-state))
+  21        j (range (count (:board @app-state)))]
+            D:\hello-world\src\hello_world\core.cljs [line 21, col 51] Unmatched delimiter ].
+  22    [:rect {:width 0.4
+  23            :height 0.4
+  24            :x i
+
+----  Reader Error : Please see src/hello_world/core.cljs  ----
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.18 seconds.
+----  Could not Read  src/hello_world/core.cljs   line:25 ----
+
+  D:\hello-world\src\hello_world\core.cljs [line 25, col 25] Unmatched delimiter ).
+
+  23                  :height 0.4
+  24                  :x i
+  25                  :y j}]))]])
+                      D:\hello-world\src\hello_world\core.cljs [line 25, col 25] Unmatched delimiter ).
+  26  
+  27  (reagent/render-component [tictactoe]
+  28                            (. js/document (getElementById "app")))
+
+----  Reader Error : Please see src/hello_world/core.cljs  ----
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.625 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.602 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.591 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.621 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.642 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.609 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.602 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.644 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.636 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:37  column:14  ----
+
+  Use of undeclared Var hello-world.core/circle
+
+  33        (for [i (range (count (:board @app-state)))
+  34              j (range (count (:board @app-state)))]
+  35          (case (get-in @app-state [:board j i])
+  36            0 [blank i j]
+  37            1 [circle i j]
+                   ^--- Use of undeclared Var hello-world.core/circle
+  38            2 [cross i j])
+  39          ))])
+  40  
+  41  (reagent/render-component [tictactoe]
+  42                            (. js/document (getElementById "app")))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:38  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  34              j (range (count (:board @app-state)))]
+  35          (case (get-in @app-state [:board j i])
+  36            0 [blank i j]
+  37            1 [circle i j]
+  38            2 [cross i j])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  39          ))])
+  40  
+  41  (reagent/render-component [tictactoe]
+  42                            (. js/document (getElementById "app")))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:37  column:14  ----
+
+  Use of undeclared Var hello-world.core/circle
+
+  33        (for [i (range (count (:board @app-state)))
+  34              j (range (count (:board @app-state)))]
+  35          (case (get-in @app-state [:board j i])
+  36            0 [blank i j]
+  37            1 [circle i j]
+                   ^--- Use of undeclared Var hello-world.core/circle
+  38            2 [cross i j])
+  39          ))])
+  40  
+  41  (reagent/render-component [tictactoe]
+  42                            (. js/document (getElementById "app")))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:38  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  34              j (range (count (:board @app-state)))]
+  35          (case (get-in @app-state [:board j i])
+  36            0 [blank i j]
+  37            1 [circle i j]
+  38            2 [cross i j])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  39          ))])
+  40  
+  41  (reagent/render-component [tictactoe]
+  42                            (. js/document (getElementById "app")))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.662 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:44  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  40              j (range (count (:board @app-state)))]
+  41          (case (get-in @app-state [:board j i])
+  42            0 [blank i j]
+  43            1 [circle i j]
+  44            2 [cross i j])))])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  45  
+  46  (reagent/render-component [tictactoe]
+  47                            (. js/document (getElementById "app")))
+  48  
+  49  (defn on-js-reload [])
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:44  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  40              j (range (count (:board @app-state)))]
+  41          (case (get-in @app-state [:board j i])
+  42            0 [blank i j]
+  43            1 [circle i j]
+  44            2 [cross i j])))])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  45  
+  46  (reagent/render-component [tictactoe]
+  47                            (. js/document (getElementById "app")))
+  48  
+  49  (defn on-js-reload [])
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.602 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:44  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  40              j (range (count (:board @app-state)))]
+  41          (case (get-in @app-state [:board j i])
+  42            0 [blank i j]
+  43            1 [circle i j]
+  44            2 [cross i j])))])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  45  
+  46  (reagent/render-component [tictactoe]
+  47                            (. js/document (getElementById "app")))
+  48  
+  49  (defn on-js-reload [])
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:44  column:14  ----
+
+  Use of undeclared Var hello-world.core/cross
+
+  40              j (range (count (:board @app-state)))]
+  41          (case (get-in @app-state [:board j i])
+  42            0 [blank i j]
+  43            1 [circle i j]
+  44            2 [cross i j])))])
+                   ^--- Use of undeclared Var hello-world.core/cross
+  45  
+  46  (reagent/render-component [tictactoe]
+  47                            (. js/document (getElementById "app")))
+  48  
+  49  (defn on-js-reload [])
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.636 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.589 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.651 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.557 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.621 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.591 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.628 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.188 seconds.
+----  Could not Read  src/hello_world/core.cljs   line:36  column:37  ----
+
+  Duplicate key: :y1
+
+  34         :stroke-width 0.1}
+  35      [:line {:x1 0 :y1 0 :x2 1 :y2 1}]
+  36      [:line {:x1 1 :y1 0 :x2 0 :y1 1}]])
+                                          ^--- Duplicate key: :y1
+  37  
+  38  (defn tictactoe []
+  39    [:center
+
+----  Reader Error : Please see src/hello_world/core.cljs  ----
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.667 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.631 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.55 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.573 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.628 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.573 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.57 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.623 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.62 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.596 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.584 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.602 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.577 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:23  column:29  ----
+
+  Use of undeclared Var hello-world.core/path
+
+  19                                :when (= (get-in board [j i]) "B")]
+  20                            [i j])
+  21          move (rand-nth remaining-spots)
+  22          path (into [:board] (reverse move))])
+  23    (swap! app-state assoc-in path "C"))
+                                  ^--- Use of undeclared Var hello-world.core/path
+  24  
+  25  (defn blank [i j]
+  26    [:rect
+  27      {:width 0.9
+  28       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.644 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:23  column:29  ----
+
+  Use of undeclared Var hello-world.core/path
+
+  19                                :when (= (get-in board [j i]) "B")]
+  20                            [i j])
+  21          move (rand-nth remaining-spots)
+  22          path (into [:board] (reverse move))])
+  23    (swap! app-state assoc-in path "C"))
+                                  ^--- Use of undeclared Var hello-world.core/path
+  24  
+  25  (defn blank [i j]
+  26    [:rect
+  27      {:width 0.9
+  28       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.678 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.635 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.587 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.614 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.567 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.624 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.591 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:2  ----
+
+  Use of undeclared Var hello-world.core/deftest
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+       ^--- Use of undeclared Var hello-world.core/deftest
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:10  ----
+
+  Use of undeclared Var hello-world.core/computer-move-test
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+               ^--- Use of undeclared Var hello-world.core/computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:27  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn blank [i j]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:29  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn blank [i j]
+  33    [:rect
+  34      {:width 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.668 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:2  ----
+
+  Use of undeclared Var hello-world.core/deftest
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+       ^--- Use of undeclared Var hello-world.core/deftest
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:10  ----
+
+  Use of undeclared Var hello-world.core/computer-move-test
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+               ^--- Use of undeclared Var hello-world.core/computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:27  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn straight [owner board x y dx dy]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:29  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn straight [owner board x y dx dy]
+  33    (every? true?
+  34            (for [i (range board-size)]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.721 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:2  ----
+
+  Use of undeclared Var hello-world.core/deftest
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+       ^--- Use of undeclared Var hello-world.core/deftest
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:26  column:10  ----
+
+  Use of undeclared Var hello-world.core/computer-move-test
+
+  22          path (reverse move)]
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+               ^--- Use of undeclared Var hello-world.core/computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:27  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  23      (prn "BOARD" board "PATH" path)
+  24      (assoc-in board path "C")))
+  25  
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn straight [owner board [x y] [dx dy] n]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:29  column:4  ----
+
+  Use of undeclared Var hello-world.core/is
+
+  26  (deftest computer-move-test
+  27    (is (= [["C"]]
+  28           (computer-move [["B"]])))
+  29    (is (= [["P"]]
+         ^--- Use of undeclared Var hello-world.core/is
+  30           (computer-move [["P"]]))))
+  31  
+  32  (defn straight [owner board [x y] [dx dy] n]
+  33    (every? true?
+  34            (for [i (range n)]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:52  column:5  ----
+
+  Wrong number of args (6) passed to hello-world.core/straight
+
+  49  (defn game-status [board]
+  50    (for [i (range board-size)
+  51          j (range board-size)]
+  52      (straight "P" board i j 1 0)))
+          ^--- Wrong number of args (6) passed to hello-world.core/straight
+  53  
+  54  (defn blank [i j]
+  55    [:rect
+  56      {:width 0.9
+  57       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:52  column:5  ----
+
+  Wrong number of args (6) passed to hello-world.core/straight
+
+  49  (defn game-status [board]
+  50    (for [i (range board-size)
+  51          j (range board-size)]
+  52      (straight "P" board i j 1 0)))
+          ^--- Wrong number of args (6) passed to hello-world.core/straight
+  53  
+  54  (defn blank [i j]
+  55    [:rect
+  56      {:width 0.9
+  57       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.771 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:52  column:5  ----
+
+  Wrong number of args (6) passed to hello-world.core/straight
+
+  49  (defn game-status [board]
+  50    (for [i (range board-size)
+  51          j (range board-size)]
+  52      (straight "P" board i j 1 0)))
+          ^--- Wrong number of args (6) passed to hello-world.core/straight
+  53  
+  54  (defn blank [i j]
+  55    [:rect
+  56      {:width 0.9
+  57       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:52  column:5  ----
+
+  Wrong number of args (6) passed to hello-world.core/straight
+
+  49  (defn game-status [board]
+  50    (for [i (range board-size)
+  51          j (range board-size)]
+  52      (straight "P" board i j 1 0)))
+          ^--- Wrong number of args (6) passed to hello-world.core/straight
+  53  
+  54  (defn blank [i j]
+  55    [:rect
+  56      {:width 0.9
+  57       :height 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.641 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.657 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:51  column:5  ----
+
+  Wrong number of args (1) passed to hello-world.core/win?
+
+  47       "Win2?" (win? "P" [["P"]] 2))
+  48  
+  49  (defn game-status [board]
+  50    (cond
+  51      (win? "P") :player-victory
+          ^--- Wrong number of args (1) passed to hello-world.core/win?
+  52      (win? "C") :computer-victory
+  53      (draw?) :draw
+  54      :else :in-progress))
+  55  
+  56  (defn blank [i j]
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:52  column:5  ----
+
+  Wrong number of args (1) passed to hello-world.core/win?
+
+  49  (defn game-status [board]
+  50    (cond
+  51      (win? "P") :player-victory
+  52      (win? "C") :computer-victory
+          ^--- Wrong number of args (1) passed to hello-world.core/win?
+  53      (draw?) :draw
+  54      :else :in-progress))
+  55  
+  56  (defn blank [i j]
+  57    [:rect
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+----  Compiler Warning on   src/hello_world/core.cljs   line:53  column:6  ----
+
+  Use of undeclared Var hello-world.core/draw?
+
+  49  (defn game-status [board]
+  50    (cond
+  51      (win? "P") :player-victory
+  52      (win? "C") :computer-victory
+  53      (draw?) :draw
+           ^--- Use of undeclared Var hello-world.core/draw?
+  54      :else :in-progress))
+  55  
+  56  (defn blank [i j]
+  57    [:rect
+  58      {:width 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.729 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:53  column:6  ----
+
+  Use of undeclared Var hello-world.core/draw?
+
+  49  (defn game-status [board]
+  50    (cond
+  51      (win? "P" board 3) :player-victory
+  52      (win? "C" board 3) :computer-victory
+  53      (draw? board 3) :draw
+           ^--- Use of undeclared Var hello-world.core/draw?
+  54      :else :in-progress))
+  55  
+  56  (defn blank [i j]
+  57    [:rect
+  58      {:width 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.636 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+----  Compiler Warning on   src/hello_world/core.cljs   line:53  column:5  ----
+
+  Wrong number of args (2) passed to hello-world.core/full?
+
+  49  (defn game-status [board]
+  50    (cond
+  51      (win? "P" board 3) :player-victory
+  52      (win? "C" board 3) :computer-victory
+  53      (full? board 3) :draw
+          ^--- Wrong number of args (2) passed to hello-world.core/full?
+  54      :else :in-progress))
+  55  
+  56  (defn blank [i j]
+  57    [:rect
+  58      {:width 0.9
+
+----  Compiler Warning : Please see src/hello_world/core.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.658 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.612 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.672 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.92 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.65 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.639 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.648 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.632 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.633 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.612 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.669 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.57 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.641 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.636 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :dev to "resources/public/js/compiled/hello_world.js" from ["src"]...
+Successfully compiled build :dev to "resources/public/js/compiled/hello_world.js" in 0.506 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\hello_world\core.js
