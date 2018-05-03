@@ -1,6 +1,6 @@
 # tictactoe
 
-Tic Tac Toe in ClojureScript.
+Tic Tac Toe in ClojureScript. (Inspired by: https://www.youtube.com/watch?v=pIiOgTwjbes)
 
 ## Overview
 
