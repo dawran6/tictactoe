@@ -6,7 +6,7 @@ Tic Tac Toe in ClojureScript. (Inspired by: https://www.youtube.com/watch?v=pIiO
 
 This game uses ClojureScript, Reagent, and Figwheel!
 
-![alt screenshot](screenshot.png)
+![alt screencast](screencast.gif)
 
 ## Setup
 
